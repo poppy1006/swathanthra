@@ -11,13 +11,15 @@ const LoginScreen({super.key});
     return Container(
       child: Column(
         children: [
-          const Text('Log In',
-          style: TextStyle(
-            fontWeight: FontWeight.w700,
-            fontSize: 44,
-            
-            ),),
-            Text('Test data',style: GoogleFonts.rubik(fontSize: 50),),
+         Text('Log In',
+         textAlign: TextAlign.center,
+         style:GoogleFonts.rubik(
+          decoration: TextDecoration.none,
+          fontWeight: FontWeight.w600,
+          fontSize: 40,
+          color: Colors.white,
+          )
+        ),
         ],
       ),
     );
