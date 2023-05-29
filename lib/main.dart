@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:swa/constant.dart';
 import 'package:swa/screens/Auth_Screens/login_screen.dart';
+import 'package:swa/screens/Auth_Screens/reset_screen.dart';
 import 'package:swa/screens/splash_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,14 +18,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'swathanthra',
+      color: bgclr,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        backgroundColor: Colors.blue
+        backgroundColor: bgclr,
         
       ),
-      home: const SplashScreen(),
+      // home: const SplashScreen(),
       // home: const LoginScreen(),
+      home: const ResetScreen(),
       debugShowCheckedModeBanner: false,
+      
     );
   }
 }
