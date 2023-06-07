@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
         
       ),
       // home: const SplashScreen(),
-      // home: const LoginScreen(),
-      home: const ResetScreen(),
+      home: const LoginScreen(),
+      // home: const ResetScreen(),
       debugShowCheckedModeBanner: false,
       
     );
