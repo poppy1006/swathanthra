@@ -45,7 +45,7 @@ class ResetScreen extends StatelessWidget {
          color: whiteclr,
         ),
          children: <TextSpan>[
-         TextSpan(text: 'Please enter your',style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w700)),
+         TextSpan(text: 'Please enter your ',style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w700)),
          TextSpan(text: 'email adress or', style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w400)),
         ],
        ),
@@ -58,7 +58,7 @@ class ResetScreen extends StatelessWidget {
          color: whiteclr,
         ),
          children: <TextSpan>[
-         TextSpan(text: 'Phone number',style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w400)),
+         TextSpan(text: 'Phone number ',style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w400)),
          TextSpan(text: 'to  reset your password', style: GoogleFonts.rubik(fontSize: 18,fontWeight: FontWeight.w700)),
         ],
        ),

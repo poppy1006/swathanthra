@@ -3,6 +3,7 @@ import 'package:swa/constant.dart';
 import 'package:swa/screens/Auth_Screens/login_screen.dart';
 import 'package:swa/screens/Auth_Screens/otp_screen.dart';
 import 'package:swa/screens/Auth_Screens/reset_screen.dart';
+import 'package:swa/screens/User_screens/notification_screen.dart';
 import 'package:swa/screens/splash_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -25,10 +26,11 @@ class MyApp extends StatelessWidget {
         backgroundColor: bgclr,
         
       ),
-      // home: const SplashScreen(),
+      home: const SplashScreen(),
       // home: const LoginScreen(),
       // home: const ResetScreen(),
-      home: const OTPScreen(),
+      // home: const OTPScreen(),
+      // home: const NotificationScreen(),
       debugShowCheckedModeBanner: false,
       
     );

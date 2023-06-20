@@ -16,7 +16,7 @@ class OTPScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: bgclr,
         elevation: 0,
-        leading:Icon(Icons.arrow_back_ios), 
+        leading:IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back_ios_new)), 
       ),
 // BODY //
       backgroundColor: bgclr,

@@ -144,7 +144,10 @@ class LoginScreen extends StatelessWidget {
                           fontWeight: FontWeight.w700,
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        // NAVIGATOR //
+                        // Navigator.of(context).push(MaterialPageRoute(builder: (context) =>const OtpScreen()));
+                        },
                       style: TextButton.styleFrom(
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10)),
